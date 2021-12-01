@@ -1,0 +1,30 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "encuesta3",
+    "descripcion": "descripcion encuesta3",
+    "estado": 0,
+    "fecha_ini":"2021/11/30",
+    "fecha_fin":"2021/12/01"
+}
+
+###
+DELETE http://localhost:9000/api/4 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "encuesta3",
+    "descripcion": "descripcion encuesta3",
+    "estado": 0,
+    "fecha_ini":"30/11/2021",
+    "fecha_fin":"01/12/2021"
+
+}
